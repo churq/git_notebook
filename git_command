@@ -1,0 +1,5 @@
+*remove files from repo:
+git rm --cached <file>
+
+*ignore the changes of the file:
+git update-index --assume-unchanged [path]
