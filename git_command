@@ -3,3 +3,8 @@ git rm --cached <file>
 
 *ignore the changes of the file:
 git update-index --assume-unchanged [path]
+
+
+# generate patch file saved in filename.path
+*patch file is the file including all the difference
+git diff --patch ->[filename.patch]
